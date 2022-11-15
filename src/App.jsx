@@ -1,13 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { Navbar } from './components'
 
-function App() {
+const App = ()=>(
+  <div className="bg-primary w-full overflow-hidden">
+    <Navbar/>
+  </div>
+  
+)
 
-  return (
-    <div className='text-3xl'>
-      app
-    </div>
-  )
-}
+  
+    
+
+
 
 export default App
