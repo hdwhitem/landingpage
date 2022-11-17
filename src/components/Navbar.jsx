@@ -5,7 +5,7 @@ import ButtonGetStarted from './ButtonGetStarted'
 const Navbar = () => {
   return (
     
-    <nav className="relative container mx-auto p-6">
+    <nav>
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="pt-2">
@@ -13,7 +13,7 @@ const Navbar = () => {
         </div>
         {/* Menu Items */}
         <div className='hidden space-x-6 md:flex'>
-            <a href='#' className='hover:text-darkGrayishBlue'>Pricing</a>
+            <a href='#' className='hover:text-brightRed'>Pricing</a>
             <a href='#' className='hover:text-darkGrayishBlue'>Product</a>
             <a href='#' className='hover:text-darkGrayishBlue'>About Us</a>
             <a href='#' className='hover:text-darkGrayishBlue'>Careers</a>
@@ -27,7 +27,6 @@ const Navbar = () => {
       </div>
     </nav>
         
-    
   )
 }
 

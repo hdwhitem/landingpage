@@ -1,17 +1,15 @@
 import { useState } from 'react'
-import { Navbar, Hero} from './components'
+import { Navbar, Hero, Business} from './components'
 
 const App = ()=>(
-  <div className="bg-primary w-full overflow-hidden">
+  <div className="relative container mx-auto p-6">
     <Navbar/>
     <Hero/>
+    <Business/>
   </div>
-  
-)
 
   
     
-
-
-
+  
+)
 export default App
