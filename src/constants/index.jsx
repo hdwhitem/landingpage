@@ -1,3 +1,5 @@
+import {avatarAnisha, avatarRichard, avatarShanai} from '../assets'
+
 export const features = [
     {
         id: "feature-1",
@@ -19,5 +21,29 @@ export const features = [
         title: "Everything you need in one place",
         content:
           "Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.",
+    },
+  ];
+
+  export const feedback = [
+    {
+      id: "feedback-1",
+      content:
+        "Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.",
+      name: "Anisha Jensen",
+      img: avatarAnisha,
+    },
+    {
+      id: "feedback-2",
+      content:
+        "We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.",
+      name: "Steve Mark",
+      img: avatarRichard,
+    },
+    {
+      id: "feedback-3",
+      content:
+        "Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.",
+      name: "Kenn Gallagher",
+      img: avatarShanai,
     },
   ];

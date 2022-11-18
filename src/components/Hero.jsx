@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
         {/* Image */}
         <div className='md:w-1/2'>
-            <img src={illustrationIntro} alt=''/>
+            <img src={illustrationIntro} alt='' className='py-0'/>
         </div>
      </div>
     </section>
