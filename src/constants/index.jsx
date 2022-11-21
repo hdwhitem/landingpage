@@ -1,5 +1,28 @@
 import {avatarAnisha, avatarRichard, avatarShanai, iconFacebook, iconInstagram, iconYoutube, iconPinterest, iconTwitter} from '../assets'
 
+export const navLinks = [
+  {
+    id: "home",
+    title: "Home",
+  },
+  {
+    id: "features",
+    title: "Features",
+  },
+  {
+    id: "product",
+    title: "Product",
+  },
+  {
+    id: "clients",
+    title: "Clients",
+  },
+  {
+    id: "about",
+    title: "About",
+  },
+];
+
 export const features = [
     {
         id: "feature-1",

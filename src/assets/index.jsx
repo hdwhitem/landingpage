@@ -8,3 +8,5 @@ export { default as iconInstagram } from './img/iconInstagram.svg';
 export { default as iconTwitter } from './img/iconTwitter.svg';
 export { default as iconPinterest } from './img/iconPinterest.svg';
 export { default as iconYoutube } from './img/iconYoutube.svg';
+export { default as menu } from './img/menu.svg';
+export { default as close } from './img/close.svg';
