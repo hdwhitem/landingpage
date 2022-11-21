@@ -26,7 +26,7 @@ const FeatureCard = ({label, title, content, index}) => (
 
 const Business = () => {
   return (
-    <div className='container flex flex-col mx-auto mt-2 space-y-12 md:space-y-0 md:flex-row'>
+    <div className='container flex flex-col mx-auto mt-2 space-y-12 px-6 md:space-y-0 md:flex-row'>
         <div className='flex flex-col space-y-12 md:w-1/2'>
             <h2 className='max-w-md text-4xl font-bold text-center md:text-left'>
                 What's different about Manage?

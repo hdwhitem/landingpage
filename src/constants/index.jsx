@@ -1,4 +1,4 @@
-import {avatarAnisha, avatarRichard, avatarShanai} from '../assets'
+import {avatarAnisha, avatarRichard, avatarShanai, iconFacebook, iconInstagram, iconYoutube, iconPinterest, iconTwitter} from '../assets'
 
 export const features = [
     {
@@ -46,4 +46,73 @@ export const features = [
       name: "Kenn Gallagher",
       img: avatarShanai,
     },
+  ];
+  export const socialMedia = [
+    {
+      id: "social-media-1",
+      icon: iconInstagram,
+      link: "https://www.instagram.com/",
+    },
+    {
+      id: "social-media-2",
+      icon: iconFacebook,
+      link: "https://www.facebook.com/",
+    },
+    {
+      id: "social-media-3",
+      icon: iconTwitter,
+      link: "https://www.twitter.com/",
+    },
+    {
+      id: "social-media-4",
+      icon: iconYoutube,
+      link: "https://www.youtube.com/",
+    },
+    {
+      id: "social-media-5",
+      icon: iconPinterest,
+      link: "https://www.pinterest.com/",
+    },
+  ];
+ 
+  export const footerLinks = [
+    {
+      title: "Useful Links",
+      links: [
+        {
+          name: "Home",
+          link: "https://www.hoobank.com/content/",
+        },
+        {
+          name: "Pricing",
+          link: "https://www.hoobank.com/how-it-works/",
+        },
+        {
+          name: "Products",
+          link: "https://www.hoobank.com/create/",
+        },
+        {
+          name: "About",
+          link: "https://www.hoobank.com/explore/",
+        },
+      ],
+    },
+    {
+      title: "Page",
+      links: [
+        {
+          name: "Careers",
+          link: "https://www.hoobank.com/content/",
+        },
+        {
+          name: "Community",
+          link: "https://www.hoobank.com/how-it-works/",
+        },
+        {
+          name: "Privacy Policy",
+          link: "https://www.hoobank.com/create/",
+        },
+      ],
+    },
+    
   ];

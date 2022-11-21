@@ -1,5 +1,6 @@
 import React from 'react'
 import { feedback } from '../constants'
+import ButtonGetStarted from './ButtonGetStarted'
 
 const FeedbackCard = ({ content, name, img, index}) => (
     <div className={`flex flex-col sm:mb-10 items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3`}>
@@ -26,6 +27,10 @@ const Testimonials = () => {
 
             <div className="flex flex-col mt-24 md:flex-row md:space-x-6 sm:justify-start justify-center">
                 {feedback.map((card, index) => <FeedbackCard key={card.id} {...card} index={index} />)}
+            </div>
+            {/* Button */}
+            <div className='my-8'>
+                <ButtonGetStarted/>
             </div>
 
         </div>

@@ -6,13 +6,13 @@ const Navbar = () => {
   return (
     
     <nav>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between px-6">
         {/* Logo */}
         <div className="pt-2">
             <img src={logo} alt='logopage'/>
         </div>
         {/* Menu Items */}
-        <div className='hidden space-x-6 md:flex'>
+        <div className='hidden lg:space-x-6 md:space-x-3 md:flex'>
             <a href='#' className='hover:text-brightRed'>Pricing</a>
             <a href='#' className='hover:text-darkGrayishBlue'>Product</a>
             <a href='#' className='hover:text-darkGrayishBlue'>About Us</a>

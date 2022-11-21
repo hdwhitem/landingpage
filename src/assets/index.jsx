@@ -3,3 +3,8 @@ export { default as illustrationIntro } from './img/illustration-intro.svg';
 export { default as avatarAnisha } from './img/avatarAnisha.png';
 export { default as avatarShanai } from './img/avatarShanai.png';
 export { default as avatarRichard } from './img/avatarRichard.png';
+export { default as iconFacebook } from './img/iconFacebook.svg';
+export { default as iconInstagram } from './img/iconInstagram.svg';
+export { default as iconTwitter } from './img/iconTwitter.svg';
+export { default as iconPinterest } from './img/iconPinterest.svg';
+export { default as iconYoutube } from './img/iconYoutube.svg';
