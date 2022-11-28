@@ -1,4 +1,5 @@
 export { default as logo } from './img/logo.svg';
+export { default as logo2 } from './img/logo2.svg';
 export { default as illustrationIntro } from './img/illustration-intro.svg';
 export { default as avatarAnisha } from './img/avatarAnisha.png';
 export { default as avatarShanai } from './img/avatarShanai.png';

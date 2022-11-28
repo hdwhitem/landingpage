@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { close, logo, menu } from '../assets'
+import { close, logo2, menu } from '../assets'
 import ButtonGetStarted from './ButtonGetStarted'
 import { navLinks } from '../constants'
 
@@ -11,8 +11,8 @@ const Navbar = () => {
     <nav>
       <div className="flex items-center justify-between px-6">
         {/* Logo */}
-        <div className="pt-2">
-            <img src={logo} alt='logopage'/>
+        <div>
+            <img src={logo2} alt='logopage' className="h-[80px]"/>
         </div>
         {/* Menu Items */}
         <div className='hidden lg:space-x-6 md:space-x-3 md:flex'>
